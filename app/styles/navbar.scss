@@ -1,0 +1,39 @@
+@import "util/colors.scss";
+
+.navbar {
+	padding-bottom: 1rem;
+	padding-top: 1.5rem;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-brand {
+	color: white;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 1;
+
+	text-decoration: none;
+	white-space:nowrap;
+}
+
+.navbar-items {
+	align-items: center;
+	display: flex;
+}
+
+.navbar-item {
+	font-weight: 500;
+	color: $color-1;
+	padding: 0.5rem;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.navbar-item:hover {
+	color: $color-1-dark;
+	background-color: #111;
+	border-radius: 5px;
+}

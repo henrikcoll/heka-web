@@ -1,0 +1,44 @@
+@import "minireset.sass";
+@import "navbar.scss";
+@import "title.scss";
+@import "card.scss";
+@import "spacing.scss";
+@import "inputs.scss";
+@import "flex.scss";
+@import "notifications.scss";
+
+$background-color: black;
+
+html {
+	tab-size: 4;
+	font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+
+:root {
+	color: rgb(74, 74, 74);
+}
+
+body {
+	background-color: $background-color;
+}
+
+.container {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 1rem;
+	
+	max-width: 64rem;
+	margin-left: auto;
+	margin-right: auto;
+
+	&.s-xs {
+		max-width: 32rem;
+	}
+}
+
+@media (max-width: 512px) {
+	.container {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+}

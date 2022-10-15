@@ -1,0 +1,37 @@
+@import "util/colors.scss";
+
+input {
+	background-color: $background-input;
+	border-radius: 5px;
+	padding: 0.75rem 1.25rem;
+	margin: 0.5rem;
+	border: none;
+	color: white;
+}
+
+textarea {
+	background-color: $background-input;
+	border-radius: 5px;
+	padding: 0.75rem 1.25rem;
+	margin: 0.5rem;
+	border: none;
+	color: white;
+}
+
+button {
+	background-color: $background-input;
+	border-radius: 5px;
+	padding: 0.75rem 1.25rem;
+	margin: 0.5rem;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: $background-input-hover;
+}
+
+button:active {
+	background-color: $background-input-active;
+}

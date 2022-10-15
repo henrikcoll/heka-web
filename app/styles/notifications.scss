@@ -1,0 +1,18 @@
+@import "util/colors.scss";
+
+.ember-notify {
+	&.callout {
+		border: none;
+		border-radius: 7px;
+	}
+
+	&.info {
+		background-color: $notification-info !important;
+		color: $notification-info-text;
+	}
+
+	&.alert {
+		background-color: $notification-alert !important;
+		color: $notification-alert-text;
+	}
+}

@@ -1,0 +1,11 @@
+<div class='flex flex-col'>
+  <div class='title s-2 pb-1'>Get api key</div>
+  <Input
+    id='email'
+    @type='email'
+    autocomplete='email'
+    placeholder='Email'
+    @value={{this.email}}
+  />
+  <button type='button' {{on 'click' this.request}}>Request</button>
+</div>

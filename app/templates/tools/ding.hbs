@@ -1,0 +1,27 @@
+{{page-title 'Ding'}}
+
+<Container @size='xs'>
+  <h1 class='title s-1'>Ding</h1>
+</Container>
+
+<Container @size='xs'>
+  <Card>
+    <div class='title s-2 pb-1'>Usage</div>
+    <p>1. Get api key</p>
+    <p>2. Use api key</p>
+  </Card>
+</Container>
+
+<Container @size='xs'>
+  <Card>
+    <Ding::RequestForm />
+  </Card>
+</Container>
+
+<Container @size='xs'>
+  <Card>
+    <Ding::SendForm />
+  </Card>
+</Container>
+
+{{outlet}}

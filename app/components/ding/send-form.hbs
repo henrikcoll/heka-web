@@ -1,0 +1,12 @@
+<div class='flex flex-col'>
+  <div class='title s-2 pb-1'>Send email</div>
+  <Textarea id='token' placeholder='Token' @value={{this.token}} />
+  <Input
+    id='subject'
+    placeholder='Subject'
+    @type='text'
+    @value={{this.subject}}
+  />
+  <Textarea id='message' placeholder='Message' @value={{this.message}} />
+  <button type='button' {{on 'click' this.send}}>Send</button>
+</div>
